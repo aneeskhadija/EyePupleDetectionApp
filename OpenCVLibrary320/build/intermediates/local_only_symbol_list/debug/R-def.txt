@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+attr? camera_id
+attr? show_fps
+id any
+id back
+id front
+raw haarcascade_eye
+raw haarcascade_eye_tree_eyeglasses
+raw haarcascade_frontalcatface
+raw haarcascade_frontalcatface_extended
+raw haarcascade_frontalface_alt
+raw haarcascade_frontalface_alt2
+raw haarcascade_frontalface_alt_tree
+raw haarcascade_frontalface_default
+raw haarcascade_fullbody
+raw haarcascade_lefteye_2splits
+raw haarcascade_licence_plate_rus_16stages
+raw haarcascade_lowerbody
+raw haarcascade_profileface
+raw haarcascade_righteye_2splits
+raw haarcascade_russian_plate_number
+raw haarcascade_smile
+raw haarcascade_upperbody
+raw lbpcascade_frontalface
+string app_name
+styleable CameraBridgeViewBase show_fps camera_id

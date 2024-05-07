@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kongqw.ObjectDetectingView
+        android:id="@+id/photograph_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/lighgray"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="swapCamera"
+            android:background="@drawable/ic_camera_front_black_24dp"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:id="@+id/id_pupilsize"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/eye_24dp" />
+
+        <!--<ToggleButton
+            android:id="@+id/onOffFlashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Turn On/Off Camera LED/ Flashlight Android"
+            android:textOff="Turn On"
+            android:textOn="Turn Off" />-->
+
+        <ToggleButton
+            android:id="@+id/id_ScreenRecord"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Turn On/Off Camera LED/ Flashlight Android"
+            android:textOff="Video Stop"
+            android:textOn="Video Start" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/rb_eye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eye detection"
+                    android:textColor="#000"/>
+
+                <RadioButton
+                    android:id="@+id/rb_face"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Face Detection"
+                    android:textColor="#000"/>
+
+                <RadioButton
+                    android:id="@+id/rb_smile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smile detection"
+                    android:textColor="#000"/>
+
+                <RadioButton
+                    android:id="@+id/rb_upper_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upper body detection"
+                    android:textColor="#000"/>
+
+                <RadioButton
+                    android:id="@+id/rb_lower_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lower body detection"
+                    android:textColor="#000"/>
+
+                <RadioButton
+                    android:id="@+id/rb_full_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whole body test"
+                    android:textColor="#000"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

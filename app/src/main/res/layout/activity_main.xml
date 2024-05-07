@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bckgrnd"
+    tools:context="kong.qingwei.opencv320.MainActivity">
+
+    <ImageView
+        android:id="@+id/id_image_detectPupil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circlebackgroundpurple"
+        android:padding="30dp"
+        android:src="@drawable/ic_remove_red_eye_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Pupil size"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onDetecting"
+        android:text="Target Detection" />-->
+
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTracking"
+        android:text="Target Tracking" />-->
+
+</LinearLayout>

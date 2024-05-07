@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8d7400</color>
+    <color name="colorPrimaryDark">#7c6300</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="lighgray">#D3D3D3</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+    <color name="white">#fff</color>
+    <color name="background">#fcce3a</color>
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="gridTextcolor">#8BC34A</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+
+</resources>

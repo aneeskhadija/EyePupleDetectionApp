@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kong.qingwei.opencv320">
+
+    <!-- Allows access to the flashlight -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Target detection activity -->
+        <activity
+            android:name=".ObjectDetectingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <!-- Target tracking activity -->
+        <activity
+            android:name=".ObjectTrackingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".BaseActivity"/>
+
+    </application>
+
+</manifest>

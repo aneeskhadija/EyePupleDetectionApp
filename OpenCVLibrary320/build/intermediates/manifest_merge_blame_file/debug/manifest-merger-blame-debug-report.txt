@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="15"
+6-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:5:5-65
+9-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:5:22-62
+10
+11    <uses-feature
+11-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:7:5-9:36
+12        android:name="android.hardware.camera"
+12-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:8:9-47
+13        android:required="false" />
+13-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:9:9-33
+14    <uses-feature
+14-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:10:5-12:36
+15        android:name="android.hardware.camera.autofocus"
+15-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:11:9-57
+16        android:required="false" />
+16-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:12:9-33
+17    <uses-feature
+17-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:13:5-15:36
+18        android:name="android.hardware.camera.front"
+18-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:14:9-53
+19        android:required="false" />
+19-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:15:9-33
+20    <uses-feature
+20-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:16:5-18:36
+21        android:name="android.hardware.camera.front.autofocus"
+21-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:17:9-63
+22        android:required="false" />
+22-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:18:9-33
+23
+24    <supports-screens
+24-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:20:5-25:39
+25        android:anyDensity="true"
+25-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:21:9-34
+26        android:largeScreens="true"
+26-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:22:9-36
+27        android:normalScreens="true"
+27-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:23:9-37
+28        android:resizeable="true"
+28-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:24:9-34
+29        android:smallScreens="true" />
+29-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:25:9-36
+30
+31    <application
+31-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:27:5-32:19
+32        android:allowBackup="true"
+32-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:28:9-35
+33        android:label="@string/app_name"
+33-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:29:9-41
+34        android:supportsRtl="true" >
+34-->D:\Quantam\SourceCode\OIRRC_EYE_PupilDetection\OpenCVLibrary320\src\main\AndroidManifest.xml:30:9-35
+35    </application>
+36
+37</manifest>
